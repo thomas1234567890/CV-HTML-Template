@@ -1,0 +1,22 @@
+._menu {
+  grid-area: _menu;
+}
+._main {
+  grid-area: _main;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: '_menu _main _main _main';
+  gap: 10px;
+  // background-color: #2196f3;
+  padding: 10px;
+  height: 90vh;
+}
+
+.grid-container > .grid_item {
+  // background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
